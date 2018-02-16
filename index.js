@@ -15,7 +15,7 @@ function draftGenerator(str){
   let secondCount = 0;
   for (var j = shuffledArr.length - 1; j >= 0; j--){
     secondCount++;
-    const timeout = (secondCount + shuffledArr.length) * 5000;
+    const timeout = (secondCount + shuffledArr.length) * 7000;
     setDelay(`${secondCount}. ${shuffledArr[j]}`, timeout);
   }
   return 'start' ;
@@ -26,7 +26,7 @@ function draftGenerator(str){
 // console.log(draftGenerator('Adrien Alex Bobby Eleni Ella Emily Leigh Michael Noor Wale Rohan Sol Xifeng'));
 
 //Junior fellows
-console.log(draftGenerator('Ari David Hannah James Jonathan Julia Kevin Leah LeMona Owen Samuel Sara_Rose Sarah Shmuel'));
+console.log(draftGenerator('Ari David Hannah James Jonathan Julia Kevin Leah LeMona Owen Sam Sara_Rose Sarah Shmuel'));
 
 
 module.exports = draftGenerator;
