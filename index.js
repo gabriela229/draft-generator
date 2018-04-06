@@ -23,10 +23,10 @@ function draftGenerator(str){
 
 
 //Senior fellows
-// console.log(draftGenerator('Adrien Alex Bobby Eleni Ella Emily Leigh Michael Noor Wale Rohan Sol Xifeng'));
+// console.log(draftGenerator('Ari David Hannah James Jonathan Julia Kevin Leah LeMona Owen Sam Sara_Rose Sarah Shmuel'));
 
 //Junior fellows
-console.log(draftGenerator('Ari David Hannah James Jonathan Julia Kevin Leah LeMona Owen Sam Sara_Rose Sarah Shmuel'));
+console.log(draftGenerator('Beth Bruce Connor Dani Gabby Jeff Jon Josh Kait Lindsay Michaela Noelle Philip Rob Roxie Xifeng'));
 
 
 module.exports = draftGenerator;
